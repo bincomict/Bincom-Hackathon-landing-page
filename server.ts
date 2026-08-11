@@ -156,7 +156,7 @@ async function startServer() {
       // Non-blocking background trigger for n8n webhook (prevents hanging / 504 timeouts)
       (async () => {
         try {
-          await fetch("https://dev.automation.emigr8visa.com/webhook/hackathon-form", {
+          await fetch("https://automation.bincom.net/webhook/hackathon-form", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",

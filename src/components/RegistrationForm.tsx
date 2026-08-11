@@ -99,7 +99,7 @@ const handleSubmit = async (e: React.FormEvent) => {
 
   // Fire webhook POST request(s) without awaiting or checking response status
   try {
-    fetch("https://dev.automation.emigr8visa.com/webhook/hackathon-form", {
+    fetch("https://automation.bincom.net/webhook/hackathon-form", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
